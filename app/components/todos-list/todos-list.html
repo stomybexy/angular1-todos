@@ -1,0 +1,7 @@
+<h2>Todos list</h2>
+
+<ul ng-repeat="todo in todosList.todos">
+    <li>
+        <a ng-link="['TodoDetail', {id: todo.id}]">{{todo.name}}</a>
+    </li>
+</ul>

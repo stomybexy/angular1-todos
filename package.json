@@ -1,0 +1,26 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonatan Sombié <jonatan.sombie@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-mocks": "^1.5.6",
+    "browser-sync": "^2.12.10",
+    "connect-history-api-fallback": "^1.2.0",
+    "gulp": "^3.9.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "protractor": "^3.3.0"
+  },
+  "dependencies": {
+    "@angular/router": "^0.2.0",
+    "angular": "^1.5.6"
+  }
+}
